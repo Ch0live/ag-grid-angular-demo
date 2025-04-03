@@ -166,10 +166,10 @@ export class InventoryExample {
       data: { variantDetails },
     }: GetDetailRowDataParams) => successCallback(variantDetails),
   };
-  rowHeight = 80;
-  paginationPageSizeSelector = [5, 10, 20];
+  rowHeight = 50;
+  paginationPageSizeSelector = [5, 50, 200];
   pagination = true;
-  paginationPageSize = 10;
+  paginationPageSize = 15;
   masterDetail = true;
   detailRowAutoHeight = true;
 
